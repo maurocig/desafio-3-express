@@ -32,6 +32,7 @@ app.get('/productoRandom', async (req, res) => {
 	res.send(arrayProductos[numeroRandom]);
 })
 
+
 app.listen(PORT, () => {
 	console.log(`app is listening on port ${PORT}`)
 })
